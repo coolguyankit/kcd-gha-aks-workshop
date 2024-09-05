@@ -11,7 +11,7 @@ permissions:
 env:
    RESOURCE_GROUP: demoRG3
    AKS_CLUSTER_NAME: demoAKSCluster
-   ACR_NAME: demoACR0003
+   ACR_NAME: demoacr0003
 
 jobs:
    create-acr:
