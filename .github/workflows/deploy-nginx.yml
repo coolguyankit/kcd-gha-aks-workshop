@@ -1,9 +1,6 @@
 name: Deploy Nginx to AKS
 
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 
 permissions:
   id-token: write # Required for OIDC authentication
