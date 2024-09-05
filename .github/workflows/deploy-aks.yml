@@ -8,7 +8,7 @@ permissions:
 
 env:
    RESOURCE_GROUP: demoRG4
-   AKS_CLUSTER_NAME: demoAKSCluster
+   AKS_CLUSTER_NAME: demoAKSCluster2
    LOCATION: southeastasia
 
 jobs:
