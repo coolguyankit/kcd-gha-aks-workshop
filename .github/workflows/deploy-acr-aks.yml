@@ -34,3 +34,9 @@ jobs:
          azcliversion: latest
          inlineScript: |
            az acr create --resource-group ${{ env.RESOURCE_GROUP }} --name ${{ env.ACR_NAME }} --sku Basic
+
+     - name: Docker build and push ACR
+      run: |
+         az acr login --name ${{ secrets.ACR_LOGIN_SERVER }}
+         docker build ./src/ --tag ${{ secrets.ACR_LOGIN_SERVER }}/myapp:v1
+         docker push ${{ secrets.ACR_LOGIN_SERVER }}/myapp:v1
