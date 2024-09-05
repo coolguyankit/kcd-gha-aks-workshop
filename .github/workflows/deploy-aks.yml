@@ -10,9 +10,9 @@ permissions:
   contents: read # Required to read repository contents
 
 env:
-   RESOURCE_GROUP: demoRG
+   RESOURCE_GROUP: demoRG2
    AKS_CLUSTER_NAME: demoAKSCluster
-   LOCATION: eastus2
+   LOCATION: eastus
 
 jobs:
   build:
