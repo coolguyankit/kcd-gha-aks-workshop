@@ -12,7 +12,7 @@ permissions:
 env:
    RESOURCE_GROUP: demoRG
    AKS_CLUSTER_NAME: demoAKSCluster
-   LOCATION: eastus
+   LOCATION: eastus2
 
 jobs:
   build:
